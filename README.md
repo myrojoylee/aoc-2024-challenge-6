@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Today's challenge is a header with rulers. 
+Today's challenge is a CSS-only scroll indicator. 
 
 Original challenge site from Amy Dutton [here](https://www.adventofcss.com/).
 
@@ -12,7 +12,7 @@ Original challenge site from Amy Dutton [here](https://www.adventofcss.com/).
 
 Vanilla HTML/CSS was used for this challenge.
 
-A final webpage showing the header is shown [here](https://myrojoylee.github.io/aoc-2024-challenge-6/).
+A final webpage showing the scroll indicator is shown [here](https://myrojoylee.github.io/aoc-2024-challenge-6/).
 
 Scroll Indicator Demo:
 
