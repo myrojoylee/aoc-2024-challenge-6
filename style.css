@@ -9,36 +9,51 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Inter", 'sans-serif'; 
-    gap: 2em;
+    padding: 50px;
+    font-size: 24px;
+    line-height: 30px;
+    background-image: linear-gradient(to right top, #ff00bb 50%, black 50%);
+    background-size: 100% calc(100% - 100vh + 5px);
+    background-repeat: no-repeat;
+    z-index: 1;
+    color: white;
+    gap: 1em;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 5px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    z-index: -1;
 }
 
 header {
-    position: sticky;
-    top: 0;
     display: flex;
-    flex-direction: column;
     width: 100%;
-}
-
-nav {
-    height: 10px;
-    transition: background-color 0.5s ease;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
 }
 
 main {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    padding: 0 2em 2em 2em;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 0.8em;
 }
